@@ -6,7 +6,7 @@ Homebrew formulae to install zathura and plugins on Mac OS X
 
 ### Tap the repository
 ```
-brew tap noliaphyta/foliate
+brew tap noliaphyta/foliate-test
 ```
 
 ### Install zathura
