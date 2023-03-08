@@ -2,7 +2,7 @@ class Foliate < Formula
   desc "epub viewer"
   homepage "https://johnfactotum.github.io/foliate/"
   url "https://github.com/johnfactotum/foliate/archive/refs/tags/2.6.4.tar.gz"
-  sha256 "idk what this is"
+  sha256 "4a4381bff6e398f6734e1695da23f1c593ba2a67e463e07021a089ffd0741776"
   revision 0
   head "https://github.com/johnfactotum/foliate.git", branch: "develop"
 
