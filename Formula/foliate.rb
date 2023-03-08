@@ -11,7 +11,6 @@ class Foliate < Formula
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
   depends_on "gjs"
-  depends_on "webkitgtk"
   depends_on "gspell"
   depends_on "adwaita-icon-theme"
   depends_on "desktop-file-utils"
