@@ -1,4 +1,4 @@
-# Zathura
+# foliate
 
 Homebrew formulae to install zathura and plugins on Mac OS X
 
@@ -6,29 +6,15 @@ Homebrew formulae to install zathura and plugins on Mac OS X
 
 ### Tap the repository
 ```
-brew tap zegervdv/zathura
+brew tap noliaphyta/foliate
 ```
 
 ### Install zathura
 ```
-brew install zathura
+brew install foliate
 ```
 
-### Install and link one of the two plugins
-
-For poppler:
-```
-$ brew install zathura-pdf-poppler
-$ mkdir -p $(brew --prefix zathura)/lib/zathura
-$ ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib
-```
-
-For mupdf:
-```
-$ brew install zathura-pdf-mupdf
-$ mkdir -p $(brew --prefix zathura)/lib/zathura
-$ ln -s $(brew --prefix zathura-pdf-mupdf)/libpdf-mupdf.dylib $(brew --prefix zathura)/lib/zathura/libpdf-mupdf.dylib
-```
+### plugins?
 
 ### OSX_native_integration
 
@@ -36,39 +22,23 @@ The OSX native integration (dock, window manager) has been added to the develop 
 You can install it by
 ```
 # unlink installed zathura and girara
-brew unlink girara
-brew unlink zathura
+brew unlink foliate
 
 # install HEAD
-brew install girara --HEAD
-brew install zathura --HEAD
-mkdir -p $(brew --prefix zathura)/lib/zathura
-ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib
+brew install foliate --HEAD
+mkdir -p $(brew --prefix foliate)/lib/foliate
+ln?
 ```
 
 ### Copying to clipboard
-Add the following to your `~/.config/zathura/zathurarc`:
+Add the following to your `~/.config/foliate?`:
 ```
 set selection-clipboard clipboard
 ```
-Thanks to [geigi](https://github.com/geigi) (see [#5](https://github.com/zegervdv/homebrew-zathura/issues/5))
 
-### Operation not supported error
+### If you are seeing errors like this:
 
-If you are seeing errors like this:
-```
-error: Can not copy to temporary file: Operation not supported
-```
-
-Try using an absolute path to the document:
-```
-$ zathura document.pdf
-error: Can not copy to temporary file: Operation not supported
-# Try:
-$ zathura /path/to/document.pdf
-
-```
+It didn't work :(
 
 ## Known Issues
-Currently plugins are installed in the zathura folder, which means that uninstalling
-a plugin does not work.
+I have no idea what I'm doing
