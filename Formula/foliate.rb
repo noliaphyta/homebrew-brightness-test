@@ -4,7 +4,7 @@ class Foliate < Formula
   url "https://github.com/johnfactotum/foliate/archive/refs/tags/2.6.4.tar.gz"
   sha256 "4a4381bff6e398f6734e1695da23f1c593ba2a67e463e07021a089ffd0741776"
   revision 0
-  head "https://github.com/johnfactotum/foliate.git", branch: "develop"
+  head "https://github.com/johnfactotum/foliate.git", branch: "master"
 
   depends_on "cmake" => :build
   depends_on "meson" => :build
