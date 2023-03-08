@@ -16,13 +16,11 @@ class foliate < Formula
   depends_on "adwaita-icon-theme"
   depends_on "desktop-file-utils"
   depends_on "gettext"
-  depends_on "girara"
   depends_on "glib"
   depends_on "intltool"
   depends_on "libmagic"
   depends_on "sphinx"
   depends_on "sphinx-doc"
-  depends_on "synctex" => :optional
   on_macos do
     depends_on "gtk-mac-integration"
   end
