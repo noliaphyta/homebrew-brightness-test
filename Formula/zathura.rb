@@ -1,15 +1,18 @@
-class Zathura < Formula
-  desc "PDF viewer"
-  homepage "https://pwmt.org/projects/zathura/"
-  url "https://github.com/pwmt/zathura/archive/0.4.9.tar.gz"
-  sha256 "82235cbc89899421fca98477265626f2149df7d072740f0360550cc8d4e449d6"
+class foliate < Formula
+  desc "epub viewer"
+  homepage "https://johnfactotum.github.io/foliate/"
+  url "https://github.com/johnfactotum/foliate/archive/refs/tags/2.6.4.tar.gz"
+  sha256 "idk what this is"
   revision 0
-  head "https://github.com/pwmt/zathura.git", branch: "develop"
+  head "https://github.com/johnfactotum/foliate.git", branch: "develop"
 
   depends_on "cmake" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
+  depends_on "gettext"
+  depends_on "gjs"
+  depends_on "webkitgtk"
   depends_on "adwaita-icon-theme"
   depends_on "desktop-file-utils"
   depends_on "gettext"
