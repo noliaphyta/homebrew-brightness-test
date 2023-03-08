@@ -1,4 +1,4 @@
-class foliate < Formula
+class Foliate < Formula
   desc "epub viewer"
   homepage "https://johnfactotum.github.io/foliate/"
   url "https://github.com/johnfactotum/foliate/archive/refs/tags/2.6.4.tar.gz"
