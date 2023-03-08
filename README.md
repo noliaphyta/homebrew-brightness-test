@@ -21,10 +21,10 @@ brew install foliate
 The OSX native integration (dock, window manager) has been added to the develop branch of zathura.
 You can install it by
 ```
-# unlink installed zathura and girara
+# unlink installed ?
 brew unlink foliate
 
-# install HEAD
+# install HEAD???
 brew install foliate --HEAD
 mkdir -p $(brew --prefix foliate)/lib/foliate
 ln?
@@ -42,3 +42,4 @@ It didn't work :(
 
 ## Known Issues
 I have no idea what I'm doing
+this probably won't work because of webkitgtk not being on homebrew
