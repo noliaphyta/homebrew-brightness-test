@@ -1,5 +1,5 @@
 # coding: utf-8
-class Webkitgtk < Formula
+class Webkitgtk1 < Formula
   desc "WebkitGTK+ is a full-featured port of the WebKit rendering engine, suitable for projects requiring any kind of web integration, from hybrid HTML/CSS applications to full-fledged web browsers. It’s the official web engine of the GNOME platform and is used in browsers such as Epiphany and Midori."
   homepage "https://webkitgtk.org/"
 
