@@ -9,9 +9,15 @@ Homebrew formulae to install brightness formula on Mac OS X
 brew tap noliaphyta/brightness-test
 ```
 
-### Install foliate
+### Install brightness
 ```
 brew install brightness-test
+```
+
+### Uninstall brightness
+```
+brew uninstall brightness-test
+brew untap noliaphyta/brightness-test
 ```
 
 ### If you are seeing errors:
