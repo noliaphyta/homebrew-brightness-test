@@ -1,45 +1,23 @@
-# foliate
+# brightness
 
-Homebrew formulae to install zathura and plugins on Mac OS X
+Homebrew formulae to install brightness formula on Mac OS X
 
 ## Installation steps
 
 ### Tap the repository
 ```
-brew tap noliaphyta/foliate-test
+brew tap noliaphyta/brightness-test
 ```
 
 ### Install foliate
 ```
-brew install foliate
+brew install brightness-test
 ```
 
-### plugins?
-
-### OSX_native_integration
-
-The OSX native integration (dock, window manager) has been added to the develop branch of zathura.
-You can install it by
-```
-# unlink installed ?
-brew unlink foliate
-
-# install HEAD???
-brew install foliate --HEAD
-mkdir -p $(brew --prefix foliate)/lib/foliate
-ln?
-```
-
-### Copying to clipboard
-Add the following to your `~/.config/foliate?`:
-```
-set selection-clipboard clipboard
-```
-
-### If you are seeing errors like this:
+### If you are seeing errors:
 
 It didn't work :(
 
 ## Known Issues
 I have no idea what I'm doing
-this probably won't work because of webkitgtk not being on homebrew
+
