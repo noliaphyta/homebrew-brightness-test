@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Brightness < Formula
+class BrightnessTest < Formula
   desc "Command-line display brightness control for macOS."
   homepage "https://github.com/nriley/brightness"
   url "https://github.com/noliaphyta/brightness/archive/refs/tags/0.0.1.tar.gz"
